@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zc741.welcome.Main2Activity">
+
+    <com.meetic.dragueur.DraggableView
+        android:id="@+id/draguer"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/bg1"/>
+    </com.meetic.dragueur.DraggableView>
+</RelativeLayout>
